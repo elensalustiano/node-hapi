@@ -1,0 +1,21 @@
+{
+  "name": "projeto_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^9.3.1",
+    "inert": "^5.1.2",
+    "joi": "^14.3.1",
+    "mongoose": "^5.4.13",
+    "vision": "^5.4.4"
+  }
+}
